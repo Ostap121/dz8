@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--===============================================================================================================-->
+<!--<textarea id="textarea" ></textarea>-->
+
+<!--===============================================================================================================-->
+<hr>
+<h1>Продаж Авто</h1>
+<hr>
+<form action="" id="mainForm" >
+    <p> Оберіть марку
+        <select id="selectMark" >
+            <option >Оберіть марку</option>
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Audi">Audi</option>
+            <option value="Opel">Opel</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Peugeot">Peugeot</option>
+        </select>
+    </p>
+    <p> Введіть модель   <input id="inputModel" type="text" placeholder="Model: "></p>
+    <hr>
+    <p>
+        <input type="radio" name="radioKPP" id="radioManual" oninput="radioKPPP()"><label>Механіка</label>
+        <input type="radio" name="radioKPP" id="radioAutomatic" oninput="radioKPPP()"><label>Автомат</label>
+        <input type="radio" name="radioKPP" id="radioTiptronic" oninput="radioKPPP()"><label>Тіптронік</label>
+    </p>
+    <p>
+        <input type="checkbox" name="checkboxComfort" id="checkboxElectro" oninput="checkboxComfortt()"><label>Електросклопідйомники</label>
+        <input type="checkbox" name="checkboxComfort" id="checkboxDzerkala" oninput="checkboxComfortt()"><label>Підігрів дзеркал</label>
+        <input type="checkbox" name="checkboxComfort" id="checkboxMultiRull" oninput="checkboxComfortt()"><label>Мультируль</label>
+    </p>
+    <p>
+        <input type="radio" name="radioFuel" id="radioDiesel" oninput="radioFuell()"><label>Дизель</label>
+        <input type="radio" name="radioFuel" id="radioPetrol" oninput="radioFuell()"><label>Бензин</label>
+        <input type="radio" name="radioFuel" id="radioGasPetrol" oninput="radioFuell()"><label>Газ/Бензин</label>
+    </p>
+    <hr>
+    <h3>Опис мащини:</h3>
+    <p>    <textarea id="textareaDescription" placeholder="Description: " cols="30" rows="5" style="margin-top: 15px"></textarea>
+    </p>
+    <hr>
+</form>
+<!--===============================================================================================================-->
+
+<!--<form action="#" name="formThree">-->
+<!--    <p>-->
+<!--        <textarea name="comments" cols="40" rows="3" placeholder="Comments..."></textarea>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <input type="button" name="save" value="Save">-->
+<!--    </p>-->
+<!--</form>-->
+<!--<hr>-->
+<!--===============================================================================================================-->
+
+
+<script src="script.js"></script>
+</body>
+</html>
